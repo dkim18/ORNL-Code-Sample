@@ -160,12 +160,10 @@ public class GrowthChartService
 		//To place label for each XY plot - 240 plus some space 
 		Double labelDamainLoc = 243.0D;				
 
-		if(sex == 1){				
+		if(sex == 1)				
 			labelDamain = new double[] {163.1D,  165.2D, 168.0D, 172.5D, 177.5D,  182.0D, 186.0D, 188.5D, 190.5D};
-
-		}else{
-			labelDamain = new double[] {150.3D, 153.0D, 155.0D, 159.0D,  163.5D, 168.0D, 172.0D, 174.0D, 176.0D};
-		}
+		else
+			labelDamain = new double[] {151.2D, 153.0D, 155.0D, 159.0D,  163.5D, 168.0D, 172.0D, 174.0D, 176.0D};		
 
 		XYTextAnnotation xytextannotation = null;
 		Font font = new Font("SansSerif", 0, 9);
