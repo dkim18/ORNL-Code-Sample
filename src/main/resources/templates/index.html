@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--
 
-
--->
 <html xmlns:th="http://www.thymeleaf.org">
 
     <head>
@@ -13,21 +10,17 @@
         <script src="/webjars/jquery/3.1.1/jquery.min.js"></script>
         <script src="/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
         <title>Code Sample(Growth Parameter Chart)</title>
-        <link rel="stylesheet"
-          href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" />
-        <link rel="shortcut icon" href="/img/favicon-pie-chart.ico" />
+        <link rel="stylesheet"  href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" />              
     </head>
     
      <body>
-        <div class="container">
-          
-		
+        <div class="container">          		
 				<div class="row">
 					<div class="col-md-12">											                   
 						<div class="jumbotron well">
 							<div class="container">
 								<h2 class="display-1">Growth Parameter Chart</h2>
-								<h3 class="display-1">Code Sample (Spring Boot project with JFreeChart to generate images)</h3>							
+								<h3 class="display-1">Code Sample (Spring Boot with JFreeChart to generate growth chart images)</h3>							
 							</div>
 						</div>											
 					</div>
@@ -36,20 +29,19 @@
 				<div class="row">
                     <div class="col-md-12">
 						
+						<h5>The following chart is for my daughter. If you want different REST service call</h5>
 						
-						<h5>Example(REST service call):</h5>
-						<code>ageInMonth--> age in month, height--> height in centimeter, sex--> 1:boy  2:girl)</code>
-							<code>/chart/line/{ageInMonth}/{height}/{sex}</code>
-							<code>ex) /chart/35/100/2</code> 
-							<code>ex) /chart/65/155/1</code> 
-				
+						<code>ageInMonth--> age in month, height--> height in centimeter, sex--> 1:boy  2:girl)</code><br>
+							<code>http://localhost:8080/chart/{ageInMonth}/{height}/{sex}</code><br>
+							<code>ex) http://localhost:8080/chart/59/107/2</code> <br>
+							<code>ex) http://localhost:8080/chart/150/155/1</code> 				
 					</div>
-                </div>    
+                </div>  
                 
                 <div class="row">
                 	
                    	     <div class="col-md-12">                        
-                            <img src="/chart/35/100/1" />
+                            <img src="/chart/35/100/2" />
                          </div>
                    
                 </div>      
