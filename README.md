@@ -22,25 +22,25 @@ Queries may be sent to the author at tkkscf at g m a i l dot com.
 
 ## Build Instructions
 
-# compile the project and generate target folder
+* compile the project and generate target folder<br>
 mvn compile
 
 
-# Tests
+* Tests<br>
 mvn clean install
 
 
-### Cleaning
+* Cleaning<br>
 mvn clean
 
 
-## Execution (triggers the download of Apache Tomcat and initializes the startup of Tomcat.)
+* Execution (triggers the download of Apache Tomcat and initializes the startup of Tomcat.)<br>
 mvn spring-boot:run
 
 When the log shows the line containing ‘Started Application', this web application is ready to be queried via the browser at the address http://localhost:8080/
 This default URL displays my daughter's height for age. Other input can be entered by the following:
 http://localhost:8080/chart/{ageInMonth}/{height}/{sex}
-* {sec} -> 1:boy, 2:girl
+* {sex} -> 1:boy, 2:girl
 
 ## Documentation
 
