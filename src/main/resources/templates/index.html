@@ -10,7 +10,8 @@
         <script src="/webjars/jquery/3.1.1/jquery.min.js"></script>
         <script src="/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
         <title>Code Sample(Growth Parameter Chart)</title>
-        <link rel="stylesheet"  href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" />              
+        <link rel="stylesheet"  href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" />    
+            
     </head>
     
      <body>
@@ -29,12 +30,14 @@
 				<div class="row">
                     <div class="col-md-12">
 						
-						<h5>The following chart is for my daughter. If you want different REST service call</h5>
+						<h5>The following chart is stature percentile based on age for my daughter. If you want different REST service call, use the following:</h5>
 						
 						<code>ageInMonth--> age in month, height--> height in centimeter, sex--> 1:boy  2:girl)</code><br>
 							<code>http://localhost:8080/chart/{ageInMonth}/{height}/{sex}</code><br>
-							<code>ex) http://localhost:8080/chart/59/107/2</code> <br>
-							<code>ex) http://localhost:8080/chart/150/155/1</code> 				
+							Examples:<br>
+							<a href="./chart/160/156/2" target="_blank">.../chart/160/156/2</a> (a girl who is 160 months old with 156 centimeter height)<br>
+							<a href="./chart/59/107/2" target="_blank">.../chart/150/155/1</a> (a boy who is 150 months old with 155 centimeter height)<br>
+										
 					</div>
                 </div>  
                 
