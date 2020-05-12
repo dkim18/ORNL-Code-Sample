@@ -3,15 +3,20 @@
 
 This is code sample that I wrote and this is related in some way to the position(Research Software Engineer for Web Applications-Requisition Id 3117) that I am applying. That is why I decided to go with Spring boot framework with data visualization application.
 
-This sample displays growth chart (child's stature percentile based on age.) based on the following data:
-https://www.cdc.gov/growthcharts/data/zscore/statage.csv
+This sample displays growth chart (child's stature percentile based on age.) based on the following data:<br>
+<a href="https://www.cdc.gov/growthcharts/data/zscore/statage.csv">https://www.cdc.gov/growthcharts/data/zscore/statage.csv/</a>
+
+I have deployed this web application on AWS Using Elastic Beanstalk and this is the link(just in case you don't have maven environment set up in your machine):<br>
+<a href="http://ornlcodesample-env.eba-z9v52myc.us-east-2.elasticbeanstalk.com">http://ornlcodesample-env.eba-z9v52myc.us-east-2.elasticbeanstalk.com</a>
+
 
 This sample demonstrates:
 * Implementing data visualization application using J2EE technologies
+* Use of cloud development platforms
 * Use of classes
-* Use of thymeleaf and Bootstrap
+* Use of thymeleaf(Java XML/XHTML/HTML5 template engine) and Bootstrap(HTML and CSS based design templates)
 * Input and output operations
-* Unit testing
+* Unit test with Mockito (a library that enables writing tests using the mocking approach)
 * Use of Javadoc for documentation
 * Use of Maven build
 * Use of Git for version control
@@ -34,12 +39,16 @@ mvn clean install
 mvn clean
 
 
+* Builds and packages(the resulting WAR file into the target directory-without running the unit tests during the build)<br>
+mvn package -Dmaven.test.skip=true
+
+
 * Execution (triggers the download of Apache Tomcat and initializes the startup of Tomcat.)<br>
 mvn spring-boot:run
 
 When the log shows the line containing ‘Started Application', this web application is ready to be queried via the browser at the address http://localhost:8080/
-This default URL displays my daughter's height for age. Other input can be entered by the following:
-http://localhost:8080/chart/{ageInMonth}/{height}/{sex}
+This default URL displays my daughter's height for age. Other input can be entered by the following:<br>
+http://localhost:8080/chart/{ageInMonth}/{height}/{sex}<br>
 * {sex} -> 1:boy, 2:girl
 
 ## Documentation
