@@ -1,8 +1,5 @@
 # Getting Started
 
-
-This is code sample that I wrote and this is related in some way to the position(Research Software Engineer for Web Applications-Requisition Id 3117) that I am applying. That is why I decided to go with Spring boot framework with data visualization application.
-
 This sample displays growth chart (child's stature percentile based on age.) based on the following data:<br>
 <a href="https://www.cdc.gov/growthcharts/data/zscore/statage.csv">https://www.cdc.gov/growthcharts/data/zscore/statage.csv/</a>
 
