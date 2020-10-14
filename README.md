@@ -4,7 +4,7 @@ This sample displays growth chart (child's stature percentile based on age.) bas
 <a href="https://www.cdc.gov/growthcharts/data/zscore/statage.csv">https://www.cdc.gov/growthcharts/data/zscore/statage.csv/</a>
 
 I have deployed this web application on AWS Using Elastic Beanstalk and this is the link(just in case you don't have maven environment set up in your machine):<br>
-<a href="http://ornlcodesample-env.eba-z9v52myc.us-east-2.elasticbeanstalk.com">http://ornlcodesample-env.eba-z9v52myc.us-east-2.elasticbeanstalk.com</a>
+<a href="http://ornlcodesample-env.eba-z9v52myc.us-east-2.elasticbeanstalk.com">http://growthchart-env-1.eba-5u2btkp6.us-east-2.elasticbeanstalk.com/</a>
 
 
 This sample demonstrates:
