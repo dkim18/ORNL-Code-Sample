@@ -18,7 +18,7 @@ This sample demonstrates:
 * Use of Maven build
 * Use of Git for version control
 * Use of READMEs for out of source docs
-
+* test
 
 Queries may be sent to the author at tkkscf at g m a i l dot com.
 
